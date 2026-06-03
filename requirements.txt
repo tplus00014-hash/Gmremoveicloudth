@@ -1,0 +1,6 @@
+# No external dependencies required for basic functionality
+# tkinter is included with Python by default
+
+# Optional: For enhanced GUI (uncomment if needed)
+# PySimpleGUI==4.60.4
+# pillow==9.5.0
