@@ -1,0 +1,4 @@
+# .gitattributes (optional)
+# Ensure line endings are normalized for Windows executables and scripts
+*.py text eol=lf
+platform-tools/** binary
