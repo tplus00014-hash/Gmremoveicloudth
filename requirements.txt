@@ -1,6 +1,11 @@
-# No external dependencies required for basic functionality
-# tkinter is included with Python by default
+# Requirements for enhanced GUI and iOS support (branch: feature/full-refactor-ui-ios-support)
+# PySide6 is used for the new cross-platform GUI.
+# libimobiledevice is a native tool (not pip). See README.IOS.md for installation instructions.
 
-# Optional: For enhanced GUI (uncomment if needed)
-# PySimpleGUI==4.60.4
-# pillow==9.5.0
+PySide6>=6.5.0
+# Optional utilities
+psutil>=5.9.0
+
+# Notes:
+# - libimobiledevice is not available via pip; install platform binaries as documented in README.IOS.md
+# - Keep original tkinter-based code if you prefer the lightweight script version
